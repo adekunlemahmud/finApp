@@ -1,0 +1,64 @@
+body{
+    background-image: url(img/chart.jpg);
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    padding: 0%;
+    
+}
+#img-logo{
+    width: 150px;
+    height: 90px;
+}
+.form-container{
+    margin-top: 80px;
+     border-color: black;
+     border-style: solid;
+     border-width: 1px;
+     width: 40%;
+     height: 70%;
+     margin-left: 30%;
+    
+}
+form {
+    padding-top: 30px;
+}
+#welcome{
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    
+}
+#p-login{
+    font-size: 20px;
+    font-weight: bold;
+    top:40px;
+}
+#first{
+    width: 80%;
+    height: 10%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    box-shadow: none;
+    border-style: solid 1px;
+
+}
+#submit{
+    width: 50%;
+    height: 8%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    box-shadow: none;
+    border-style: solid 1px rgb(35, 180, 84);
+    color:white;
+    font-size: 15px;
+    background-color: rgb(35, 180, 84);
+}
+#reg{
+    margin-top: 20px;
+    color: #020202;
+    font-size: 14px;
+}
