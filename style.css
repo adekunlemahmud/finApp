@@ -1,9 +1,10 @@
 body{
-    background-image: url(img/chart.jpg);
+    background-image: radial-gradient(82.17% 122.01% at 49.96% 14.01%, #FAFAFA 0%, rgba(231, 228, 228, 0.733) 350%),url(img/chart.jpg);
     background-size: cover;
     text-align: center;
     margin: 0;
     padding: 0%;
+    font-family: 'Arial Narrow', Arial, sans-serif;
     
 }
 #img-logo{
@@ -52,13 +53,110 @@ form {
     padding-left: 10px;
     border-radius: 5px;
     box-shadow: none;
+    box-sizing: border-box;
     border-style: solid 1px rgb(35, 180, 84);
     color:white;
     font-size: 15px;
     background-color: rgb(35, 180, 84);
 }
+#submit:hover{
+    background-color: #f57c35;
+    text-decoration-line: underline;
+}
 #reg{
     margin-top: 20px;
     color: #020202;
     font-size: 14px;
+}
+#register,#slogin {
+    text-decoration: none;
+    color: rgb(35, 180, 84);
+    font-weight: bold;
+}
+#register,#slogin:hover{
+    color: #f57c35;
+    text-decoration-line: underline;
+}
+.sform-container{
+     margin-top: 1%;
+     border-color: black;
+     border-style: solid;
+     border-width: 1px;
+     width: 50%;
+     height: 80%;
+     margin-right: 20%;
+     margin-left: 5%;
+     position: relative;
+     display: flex;
+     
+    
+}
+.pdetails{
+     margin-top: 2%;
+     border-color: black;
+     border-style: solid;
+     border-width: 1px;
+     width: 30%;
+     height: 80%;
+     margin-left: 65%;
+     position: absolute;
+     bottom: 10%;
+     top: 12%;
+}
+.signup-form{
+    padding-top: 10%;
+    /* padding-left: 5%;
+    padding-right: 5%; */
+    line-height: 2.5em;
+    
+}
+#h2signup{
+    font-size: 30px;
+    
+}
+#lsignup{
+    font-size: 20px;
+    
+    bottom: 20%;
+}
+#fname,#lname{
+    width: 22em;
+    height: 8%;
+    margin-bottom: 1.2em;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid #d8d3d3;
+    padding-left: 5px;
+}
+#fname{
+    margin-left: 1.9em;
+}
+#lname{
+    margin-left: 2.5em;
+}
+#email,#password,#cpassword,#sregister{
+    width: 47em;
+    height: 8%;
+    margin-left: 2.2em;
+    margin-bottom: 1.2em;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid #d8d3d3;
+    padding-left: 5px;
+
+}
+#sregister{
+    background-color: rgb(35, 180, 84);
+    color: white;
+}
+#sregister:hover{
+    background-color: #f57c35;
+    text-decoration-line: underline;
+}
+i{
+    padding-top: 10%;
+    font-size: 150px;
+    color: none;
+    border-width: 2px;
+    border-style: solid black;
 }
